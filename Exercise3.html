@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EECSLab6 Exercise3</title>
+    <link href="Exercise3.css"
+        rel="stylesheet"
+        type="text/css">
+    <script type="text/javascript" src="Exercise3.js"></script>
+  </head>
+  <body>
+    <h1>EECSLab6 Exercise3</h1>
+    <form name="store" method="POST" action="Exercise3.php" onsubmit="return submitCheck()">
+      <p>Please enter your username and password<p>
+      <label for="userName">Username: </label>
+      <input type="email" id="userName" name="userName" required> <br> <br>
+      <label for="passWord">Password: </label>
+      <input type="password" id="passWord" name="passWord" required> <br> <br>
+
+      <p>Please enter the quantity of each item that you would like to purchase</p> <br>
+      <label for="apple">Apple: ($1.00 each) </label>
+      <input type="number" id="apple" name="apple" required> <br>
+      <label for="peach">Peach: ($3.00 each) </label>
+      <input type="number" id="peach" name="peach" required> <br>
+      <label for="pear">Pear: ($2.50 each)</label>
+      <input type="number" id="pear" name="pear" required> <br> <br>
+
+      <p>Please select the option for shipping you'd like</p>
+      <label for="7day">Free 7 day</label>
+      <input type="radio" id="7day" name="shipping" value="7" required> <br>
+      <label for="1day">$50.00 over night</label>
+      <input type="radio" id="1day" name="shipping" value="1"> <br>
+      <label for="3day">$5.00 three day</label>
+      <input type="radio" id="3day" name="shipping" value="3"> <br> <br>
+
+      <input type="submit" id="subButton" value="Submit"/>
+      <input type="reset" id="reset" value="Reset"/>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+body
+{
+  background-color: #8FBC8F;
+  color: #8B008B;
+}
+table, th, td, tr{
+  border:1px solid;
+}
